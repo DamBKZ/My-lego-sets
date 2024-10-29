@@ -1,0 +1,13 @@
+.set-details-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.set-details {
+	flex: 0 0 300px;
+	padding: 16px;
+	background-color: #d9e4e7;
+	max-height: 600px;
+	border-radius: 125px;
+	text-align: center;
+}

@@ -1,0 +1,13 @@
+.set-catalog-container {
+	display: flex;
+	width: 100%;
+}
+
+.set-catalog {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+	flex: 2;
+	padding: 1px;
+	text-align: center;
+}

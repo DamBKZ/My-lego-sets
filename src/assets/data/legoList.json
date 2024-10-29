@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"name": "Royal Knight's Castle",
+		"category": "Castle",
+		"year": 1992,
+		"description": "A large castle with knights and siege equipment.",
+		"image": "../src/assets/pictures/6090.jpg",
+		"serialNumber": 6090,
+		"pieces": 743
+	},
+	{
+		"id": 2,
+		"name": "Alpha Centauri Outpost",
+		"category": "Space",
+		"year": 1991,
+		"description": "A space base for intergalactic adventures.",
+		"image": "../src/assets/pictures/6988.jpg",
+		"serialNumber": 6988,
+		"pieces": 394
+	},
+	{
+		"id": 3,
+		"name": "Crystal Explorer",
+		"category": "Aquazone",
+		"year": 1995,
+		"description": "A submarine exploring the underwater world.",
+		"image": "../src/assets/pictures/6175.jpg",
+		"serialNumber": 6175,
+		"pieces": 167
+	},
+	{
+		"id": 4,
+		"name": "Wolfpack Renegades",
+		"category": "Castle",
+		"year": 1992,
+		"description": "Wolf people's highway haunt.",
+		"image": "../src/assets/pictures/6038.jpg",
+		"serialNumber": 6038,
+		"pieces": 100
+	},
+	{
+		"id": 5,
+		"name": "Celestial Sled",
+		"category": "Space",
+		"year": 1993,
+		"description": "Ice planet - Commander Bear.",
+		"image": "../src/assets/pictures/6834.jpg",
+		"serialNumber": 6834,
+		"pieces": 55
+	},
+	{
+		"id": 6,
+		"name": "Deep Sea Predator",
+		"category": "Aquazone",
+		"year": 1995,
+		"description": "Aquashark submarine.",
+		"image": "../src/assets/pictures/6155.jpg",
+		"serialNumber": 6155,
+		"pieces": 103
+	},
+	{
+		"id": 7,
+		"name": "Dragon Wagon",
+		"category": "Castle",
+		"year": 1993,
+		"description": "Ogwen the dragon.",
+		"image": "../src/assets/pictures/6056.jpg",
+		"serialNumber": 6056,
+		"pieces": 105
+	},
+	{
+		"id": 8,
+		"name": "Ice Planet Scooter",
+		"category": "Space",
+		"year": 1994,
+		"description": "A snow scooter to travel the ice planet.",
+		"image": "../src/assets/pictures/1731.jpg",
+		"serialNumber": 1731,
+		"pieces": 19
+	},
+	{
+		"id": 9,
+		"name": "Sea Sprint",
+		"category": "Aquazone",
+		"year": 1995,
+		"description": "Aquanauts deep rover",
+		"image": "../src/assets/pictures/6125.jpg",
+		"serialNumber": 6125,
+		"pieces": 32
+	},
+	{
+		"id": 10,
+		"name": "Sea Serpent",
+		"category": "Castle",
+		"year": 1992,
+		"description": "A Black Knights' ship.",
+		"image": "../src/assets/pictures/6057.jpg",
+		"serialNumber": 6057,
+		"pieces": 126
+	},
+	{
+		"id": 11,
+		"name": "Recon Robot",
+		"category": "Space",
+		"year": 1994,
+		"description": "A big recon robot for intergalactic adventures.",
+		"image": "../src/assets/pictures/6889.jpg",
+		"serialNumber": 6889,
+		"pieces": 130
+	},
+	{
+		"id": 12,
+		"name": "Shark Scout",
+		"category": "Aquazone",
+		"year": 1995,
+		"description": "An Aquashark's scout.",
+		"image": "../src/assets/pictures/6115.jpg",
+		"serialNumber": 6115,
+		"pieces": 28
+	}
+]
