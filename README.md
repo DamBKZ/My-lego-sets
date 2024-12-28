@@ -1,50 +1,26 @@
-# React + TypeScript + Vite
+# LEGO Set Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue dans le projet **LEGO Set Catalog** ! Cette application permet de parcourir une collection de sets LEGO, de filtrer les sets par catégorie et de visualiser les détails d'un set sélectionné. C'est un projet simple et amusant pour revivre des souvenirs d'enfance avec les sets LEGO.
 
-Currently, two official plugins are available:
+## Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Filtrage par catégorie** : Choisissez une catégorie (par exemple, LEGO City, LEGO Star Wars, etc.) pour filtrer les sets LEGO affichés.
+- **Sélection d'un set** : Cliquez sur un set pour afficher ses détails.
+- **Affichage des détails** : Visualisez des informations détaillées sur chaque set sélectionné, telles que son nom, sa description, et plus encore.
+- **Interface interactive** : Facile à utiliser avec un filtrage dynamique et une interface réactive.
 
-## Expanding the ESLint configuration
+## Prérequis
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
-- Configure the top-level `parserOptions` property like this:
+- **Node.js** (version 14 ou supérieure)
+- **npm** (ou **yarn**, si vous préférez)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Installation
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 1. Cloner le repository
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Clonez ce repository sur votre machine locale :
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+```bash
+git clone https://github.com/votre-utilisateur/lego-set-catalog.git
